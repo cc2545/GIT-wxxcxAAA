@@ -1,0 +1,47 @@
+<swiper>
+<swiper-item>
+<image class="lunbo" src="/"></image>
+</swiper-item>
+</swiper>
+<!--浮图-->
+
+  <Tabs tabs="{{tabs}}" bindtabsItemChange="handletabsItemChange">
+   
+<block wx:if="{{tabs[0].isActive}}">
+  <view class="zong">
+  <view class="neirong">
+    <view class="tupian">
+      <image class="tupian1" mode="aspectFit" src="https://i.postimg.cc/13tZ09c5/2.png"></image>
+    </view>
+    <view class="qujian">
+      <input class="tupian2"	placeholder="请输入您的取件地址"></input></view>
+</view>
+      <view class="neirong2">
+      <view class="tupian11">
+        <image class="tupian111" mode="aspectFit" src="https://i.postimg.cc/13tZ09c5/2.png"></image>
+      </view>
+      <view class="qujian22">
+        <input class="tupian222"	placeholder="请输入您的送件地址"></input></view>
+      </view>
+    </view>
+ 
+</block>
+
+<block wx:elif="{{tabs[1].isActive}}">
+  <view>1</view>
+</block>
+
+  </Tabs>
+
+  <!--广告图-->
+  <view class="pictuer">
+    <image class="guanggaotu" src="/components/image/广告图.png" mode="widthFit">
+
+    </image>
+  </view>
+<!--服务类别-->
+<view class="fuwu">
+  <view class="wenzi">
+   服务类别
+  </view>
+</view>
